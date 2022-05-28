@@ -12,6 +12,12 @@ import 'view/schedules.dart';
 import 'package:firebase_core/firebase_core.dart';
 //import 'package:firebase_messaging/firebase_messaging.dart';
 
+
+// fonts:
+//     - family: Changa
+//       fonts:
+//         - asset: assets/fonts/Changa.ttf
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
