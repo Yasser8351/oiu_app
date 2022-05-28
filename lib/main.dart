@@ -34,7 +34,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'OIU',
-      theme: ThemeData(primarySwatch: Colors.green),
+     theme: ThemeData(
+          primaryColor: const Color(0xff90c444),
+          primarySwatch: Colors.green,
+          fontFamily: 'Changa'),
       home: const News(),
       routes: {
         Home.routeName: (ctx) => const Home(),
